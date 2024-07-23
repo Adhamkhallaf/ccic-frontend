@@ -1,0 +1,47 @@
+.subsdribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.subsdribe-button:hover {
+    opacity: 0.8;
+}
+
+.subsdribe-button:active {
+    opacity: 0.5;
+}
+
+
+.join-button {
+    background-color: white;
+    color: blue;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-color: blue;
+    border-width: 1px;
+    transition: backbroung-color 0.5s,
+        color 0.5s;
+}
+
+.join-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
