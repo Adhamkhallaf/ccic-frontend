@@ -2,6 +2,13 @@
     background-color: aqua;
 }
 
+.contaner {
+    display: flex;
+    justify-content: center;
+
+
+}
+
 .head-sec img {
     margin-left: auto;
     padding-left: 500px;
