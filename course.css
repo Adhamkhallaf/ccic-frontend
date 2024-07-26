@@ -3,15 +3,16 @@
 }
 
 .contaner {
+    background-color: antiquewhite;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
-
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .head-sec img {
     margin-left: auto;
-    padding-left: 500px;
+    padding-left: 50px;
     width: 30px;
     height: 30px;
 }
@@ -26,4 +27,24 @@
     .body {
         background-color: red;
     }
+}
+
+.form {
+    margin: 20px;
+
+}
+
+.form1 {
+    margin: 20px;
+
+}
+
+.form2 {
+    margin: 20px;
+
+}
+
+.form3 {
+    margin: 20px;
+
 }
