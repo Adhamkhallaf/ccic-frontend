@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.contact {
+    background-color: rgba(2, 48, 22, 0.863);
+    height: 60px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    transition: background-color 0.8s ease;
+}
+
+.contact:hover {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    border-radius: 3px;
+
+}
+
+.card {
+    height: 235px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.img {
+    height: 500px;
+
+}
+
+.intro {
+    height: 70px;
+    width: 190px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 240px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+
+}
+
+h1 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+p {
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.card:hover {
+    cursor: pointer;
+
+}
+
+.card:hover .intro {
+    height: 150px;
+    bottom: 240px;
+    background: black;
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.card:hover img {
+
+    transform: scale(1.1) rotate(-3deg);
+}
